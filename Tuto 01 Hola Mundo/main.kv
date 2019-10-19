@@ -1,5 +1,73 @@
+
 <Contenedor_01>:
+	id: ContenedorUno
+	orientation: "vertical"
+	cols:4
+	canvas:
+		Color:
+			rgb: 1,0,0
+		Rectangle:
+			size:self.size
+			pos:self.pos
     Button:
-        text: 'Hola'
+    	id: botonUno
+        text: '1'
+        on_press: ContenedorUno.mostrarBoton(1)
     Button:
-        text: 'Mundo'
+        text: '2'
+        on_press: ContenedorUno.mostrarBoton(2)
+        # rgba no se bn que formato toma
+        background_normal: ''
+    	background_color: 10, .3, .4, .85
+    Button:
+        text: '3'
+        on_press: ContenedorUno.mostrarBoton(3)
+    Button:
+        text: '4'
+        on_press: ContenedorUno.mostrarBoton(4)
+
+<Titulo>:
+	orientation: "vertical"
+	rows:1
+	canvas:
+		Color:
+			rgb: 0,2,0
+	Label:
+		text: 'Probando el Kivy'
+
+<Contenedor_MostrarTexto_Boton_Uno>:
+	orientation: "vertical"
+	rows:1
+	canvas:
+		Color:
+			rgb: 0,0,1
+	Label:
+        text: 'Hola este es el boton 1'
+
+<Contenedor_MostrarTexto_Boton_Dos>:
+	orientation: "vertical"
+	rows:1
+	canvas:
+		Color:
+			rgb: 0,0,1
+	Label:
+        text: 'Hola este es el boton 2'        
+
+<Contenedor_MostrarTexto_Boton_Tres>:
+	orientation: "vertical"
+	rows:1
+	canvas:
+		Color:
+			rgb: 0,0,1
+	Label:
+        text: 'Hola este es el boton 3'        
+
+<Contenedor_MostrarTexto_Boton_Cuatro>:
+	orientation: "vertical"
+	rows:1
+	canvas:
+		Color:
+			rgb: 0,0,1
+	Label:
+        text: 'Hola este es el boton 4'            
+	
