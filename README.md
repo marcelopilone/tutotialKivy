@@ -14,3 +14,4 @@ Si deseas apoyarme monetariamente visita mi Patreon:
 	
 	https://www.patreon.com/IvanDragogear
 
+# tutotialKivy
